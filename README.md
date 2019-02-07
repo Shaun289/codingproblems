@@ -1,11 +1,11 @@
 # interval
 
 # gtest
-<code>
-$ git submodule init
-$ git submodule udpate
-$ make gtest
-</code>
+```
+git submodule init
+git submodule udpate
+make gtest
+```
 
 ## Solving problems.
 - Analysis
