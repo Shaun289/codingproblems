@@ -1,7 +1,8 @@
 library_target=$(shell pwd)/library/target
 
 TARGET = interval
-SRCS = src/LeetCode_150_EvaluateReversePolishNotation.cpp
+SRCS = 	src/LeetCode_150_EvaluateReversePolishNotation.cpp \
+		src/LeetCode_528_Random_Pick_with_Weight.cpp
 OBJS=$(subst .cpp,.o,$(SRCS))
 
 CPPFLAGS=-I$(library_target)/include -g -std=c++11
